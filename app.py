@@ -13,6 +13,6 @@ class ReportRequest(BaseModel):
 async def GenReport(req: ReportRequest):
     result = {
         "summary": f"Report on {req.topic} for {req.region} in {req.year}.",
-        "status": "success"
+        "status": "success THIS WORK, AS INTENDWED"
     }
     return JSONResponse(content=result)
